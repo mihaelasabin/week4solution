@@ -6,12 +6,12 @@
 <p>Experience</p>
 
 <h1>Education</h1>
-{% for education in my_resume.get_education %}
+{% for education in my_resume.get_education.all %}
     {{education}}<br>
 {% endfor %}
 
 <h1>Experience</h1>
-{% for experience in my_resume.get_experience %}
+{% for experience in my_resume.get_experience.all %}
     {{experience}}<br>
 {% endfor %}
 
