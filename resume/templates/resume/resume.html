@@ -1,0 +1,18 @@
+<!-- portfolioplus/resume/templates/resume.html -->
+{% extends 'base.html' %}
+{% block title %}Resume{% endblock %}
+
+{% block content %}
+<p>Experience</p>
+
+<h1>Education</h1>
+{% for education in my_resume.get_education %}
+    {{education}}<br>
+{% endfor %}
+
+<h1>Experience</h1>
+{% for experience in my_resume.get_experience %}
+    {{experience}}<br>
+{% endfor %}
+
+{% endblock %}
