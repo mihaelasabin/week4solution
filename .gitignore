@@ -1,3 +1,6 @@
+# .gitignore
+# February 19, 2018
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

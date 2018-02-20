@@ -1,7 +1,6 @@
 """
-portfolioplus/resume/views.py for the resume app in portfolioplus
-Tiffany
-02/10/2018
+week4solution/resume/views.py
+February 19 2018
 """
 
 from django.shortcuts import render

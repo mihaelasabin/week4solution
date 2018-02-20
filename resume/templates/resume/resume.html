@@ -1,9 +1,11 @@
-<!-- portfolioplus/resume/templates/resume.html -->
+<!-- 
+week4solution/resume/templates/resume.html 
+February 19, 2018
+-->
 {% extends 'base.html' %}
 {% block title %}Resume{% endblock %}
 
 {% block content %}
-<p>Experience</p>
 
 <h1>Education</h1>
 {% for education in my_resume.get_education.all %}
@@ -16,3 +18,4 @@
 {% endfor %}
 
 {% endblock %}
+x

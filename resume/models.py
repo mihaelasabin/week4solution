@@ -1,3 +1,7 @@
+"""
+week4solution/resume/models.py
+Feb 19, 2018
+"""
 from django.db import models
 
 # Create your models here.
